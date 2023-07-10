@@ -1,0 +1,39 @@
+<html>
+  <link rel="stylesheet" href="./popup.css">
+  <script src="./popup.js"></script>
+  <head>
+    <title>Download-Through</title>
+  </head>
+  <body>
+  
+    <div id="downloadslist">
+      <ul id="myList"></ul>
+      <button id="formButton" class="open-button">Add Server</button>
+    </div>
+
+    <div class="form-downloads" id="downloads">
+      <ul id="list"></ul>
+    </div>
+
+
+
+
+    <!-- The form -->
+    <div class="form-popup" id="myForm">
+      <form class="form-container">
+        <h1>Add Server</h1>
+
+        <label for="name"><b>Name</b></label>
+        <input id="name" type="text" placeholder="Enter Server Nickname" name="name" required>
+
+        <label for="url"><b>Server URL</b></label>
+        <input id="url" type="text" placeholder="Enter Server. Dont Forget http:// or https://" name="url" required>
+
+        <button id="sumbitButton" type="submit" class="btn">Add</button>
+      </form>
+    </div>
+
+
+  </body>
+
+</html>
