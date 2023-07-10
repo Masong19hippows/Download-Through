@@ -2,7 +2,7 @@ Unoffical Gopeed Extension
 
 Use Existing [Gopeed Server](https://github.com/GopeedLab/gopeed) and upload downloads directly to it. This is meant as a temporary solution untill there is an offical solution
 
-After adding Server, just left click and select "Download-Through" and then select the server you want to download to.
+After adding Server, just right click and select "Download-Through" and then select the server you want to download to.
 
 ![mainScreen](https://github.com/masong19hippows/Download-Through/blob/main/icons/mainScreen.png?raw=true)
 
